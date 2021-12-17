@@ -1,4 +1,5 @@
 const playerScoreSpan = document.getElementById('player-score');
+const computerScoreSpan = document.getElementById('computer-score');
 const selectButtons = document.querySelectorAll('[data-selection]');
 const selections = [
     {
@@ -45,7 +46,12 @@ function makeSelection(selection) {
     console.log(computerWinner);
     if (playerWinner){
         playerScoreSpan.textContent = String(Number(playerScoreSpan.textContent) + 1);
+        
+    } else if (computerWinner){
+        computerScoreSpan.textContent = String(Number(computerScoreSpan.textContent) + 1);
     }
+
+
 }
 
 function checkWinner(selection, opponent){
