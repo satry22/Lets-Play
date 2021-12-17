@@ -4,17 +4,27 @@ const selections = [
     {
         name: 'rock', 
         image: 'assets/images/rock.png',
-        beats: 'scissors',
+        beats: ['scissors', 'lizard']
     },
     {
         name: 'scissors', 
         image: 'assets/images/scissors.png',
-        beats: 'paper',
+        beats: ['paper', 'lizard']
+    },
+    {
+        name: 'lizard', 
+        image: 'assets/images/scissors.png',
+        beats:  ['paper', 'spock']
+    },
+    {
+        name: 'spock', 
+        image: 'assets/images/scissors.png',
+        beats: ['scissors', 'rock']
     },
     {
         name: 'paper', 
         image: 'assets/images/paper.png',
-        beats: 'rock',
+        beats: ['rock', 'spock']
     }
 ];
 
@@ -38,8 +48,8 @@ function makeSelection(selection) {
     }
 }
 
-function checkWinner(selection, opponent) {
-    return selection.beats === opponent.name;
+function checkWinner(selection, opponent){
+    return selection.beats.includes(opponent.name)
 }
 
 for (let i = 0; i < selectButtons.length; i++) {

@@ -1,3 +1,42 @@
-.nav-bar {
+
+body {
+    background-color: lightgoldenrodyellow;
     font-family: 'Barlow Condensed', sans-serif;
+    color: #445361;
+    text-align: center;
 }
+
+/* --------- heading and nav-bar */
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.logo {
+    height: 200px;
+    padding-right: 5px;
+}
+
+.nav-bar {
+    background-color: darkgray;
+    padding: 20px;
+}    
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+    
+}
+
+/* --------- Game area */
+
+.selections {
+}
+
+
