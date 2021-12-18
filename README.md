@@ -2,7 +2,9 @@
 
 ![All Devices](docs/alldevices.png)
 
-Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many years. This is an evolved version. The player plays the computers random choice.
+Rock, Paper, Scissors, Lizard, Spock is a game that has been played for many years. This is an evolved version. The player plays the computers random choice.
+
+The live link can be found here - https://satry22.github.io/Lets-Play/
 
 ## User Experience
 
@@ -63,9 +65,9 @@ Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many year
   - GitPod for developing the code
   - GitHub for deploying the project
   - HTML code
-  - CSS for styling
-  - JavaScript for function
-  - DevTools for developing the code
+  - CSS for styling the UI.
+  - JavaScript for buisness.
+  - DevTools for testing and de-bugging the code
 
 ## Testing
 
@@ -120,8 +122,6 @@ Did a `git push` to push my work into GitHub.
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Main Branch
   - Once the main branch has been selected, the page will be automatically refreshed with a display to indicate the successful deployment. 
-
-The live link can be found here - https://satry22.github.io/Lets-Play/
 
 
 ## Credits 
