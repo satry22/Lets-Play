@@ -1,3 +1,13 @@
+document.addEventListener('DOMContentLoaded', () => {
+    for (let i = 0; i < selectButtons.length; i++) {
+        selectButtons[i].addEventListener('click', function (e) {
+            const selectionName = selectButtons[i].dataset.selection;
+            const selection = selections.find(selection => selection.name === selectionName);
+            makeSelection(selection);
+        });
+    }
+    console.log('page loaded');
+});
 
 const playerScoreSpan = document.getElementById('player-score');
 const computerScoreSpan = document.getElementById('computer-score');
@@ -23,7 +33,7 @@ const selections = [
         image: 'assets/images/scissors.png',
         beats: ['scissors', 'rock']
     },
-    {
+	 {
         name: 'paper', 
         image: 'assets/images/paper.png',
         beats: ['rock', 'spock']
@@ -41,8 +51,8 @@ function makeSelection(selection) {
     // console.log(selection)
     const computerSelection = randomSelection(selections);
     console.log(computerSelection);
-    playerWinner = checkWinner(selection, computerSelection);
-    computerWinner = checkWinner(computerSelection, selection);
+    let playerWinner = checkWinner(selection, computerSelection);
+    let computerWinner = checkWinner(computerSelection, selection);
     console.log(playerWinner);
     console.log(computerWinner);
     if (playerWinner){
@@ -50,18 +60,9 @@ function makeSelection(selection) {
     } else if (computerWinner){
         computerScoreSpan.textContent = String(Number(computerScoreSpan.textContent) + 1);
     }
-
-
 }
 
 function checkWinner(selection, opponent){
-    return selection.beats.includes(opponent.name)
+    return selection.beats.includes(opponent.name);
 }
 
-for (let i = 0; i < selectButtons.length; i++) {
-    selectButtons[i].addEventListener('click', function(e){
-        const selectionName = selectButtons[i].dataset.selection;
-        const selection = selections.find(selection => selection.name === selectionName);
-        makeSelection(selection);
-    })
-}

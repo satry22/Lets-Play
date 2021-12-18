@@ -1,4 +1,4 @@
-# Saras Pets
+# Rock, Paper, Scissors, Lizard, Spock
 
 ![All Devices](docs/Screenshot-alldevices.png)
 
@@ -41,12 +41,6 @@ Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many year
 
 ![Main image](docs/Screenshot-mainimage.png)
 
-- __The Rules__
-
-  - This section present rules of the game. The user will learn what actions are the winning actions, and what are thee losing action..
-
-![All Pets](docs/Screenshot-allpets.png)
-
 - __The Game Section__
 
   - The Game section features five buttons. Each button represent a hand sign to be chosen by the user, and that choice triggers the computer to make a random choice of hand sign.  
@@ -54,37 +48,12 @@ Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many year
 
 ![Birthdays](docs/Screenshot-birthdays.png)
 
-- __The Footer__ 
+- __The Rules__
 
-  - The footer section includes links to social media sites for all the pets, viewing through the eyes of one of the dogs. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media.
+  - This section present rules of the game. The user will learn what actions are the winning actions, and what are thee losing action..
 
-![Social Networks](docs/Screenshot-socialnetworks.png)
+![All Pets](docs/Screenshot-allpets.png)
 
-- __Gallery__
-
-  - The gallery will provide the user with images to see what the newsletter and social media can look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of images posted on social media. 
-
-![Gallery](docs/Screenshot-gallery.png)
-![Screenshot](docs/screenshot-gallery1.png)
-![Screenshot](docs/screenshot-gallery2.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to a weekly newsletter about the pets. The user will be able to choose if they want information on the dogs, the cats or both categories. The user will be asked to submit their full name and email address. 
-
-![Sign Up](docs/Screenshot-signup.png)
-![screenshot](docs/screenshot-signup1.png)
-![screenshot](docs/screenshot-signup2.png)
-
-- __The Thank You page__
-
-- A thanks is given to the user as a confirmation on their signing up for the newsletter.
-
-![Thanks](docs/screenshot-thankyou.png)
-![screenshot](docs/screenshot-thankyou1.png)
-![screenshot](docs/screenshot-thankyou2.png)
 
 ### Features Left to Implement
 
@@ -100,8 +69,8 @@ Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many year
   - GitHub for deploying the project
   - HTML code
   - CSS for styling
-  - FontAwesome web page for icons
-  - Pexels web page for images
+  - JavaScript for function
+  - Google search for images
   - DevTools for developing the code
 
 ## Testing
