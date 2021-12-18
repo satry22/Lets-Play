@@ -10,6 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Let's Play a Game!</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const selectButtons = document.getElementById('selectButtons');
+            selectButtons.addEventListener('click', () => {
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -29,8 +36,8 @@
     <!--- Scores and player buttons --->
     <section>
         <div class="results">
-            <p>You: <span class="result-score" id="player-score"></span>0</p>
-            <p>Computer: <span class="result-score" id="computer-score"></span>0</p>
+            <div>You: <span class="result-score" id="player-score"></span></div>
+            <div>Computer: <span class="result-score" id="computer-score"></span></div>
         </div>
         <div class="selections">
             <button class="selection" data-selection="rock"><img src="assets/images/rock.png"
