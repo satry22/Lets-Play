@@ -57,9 +57,8 @@ Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many year
 
 ### Features Left to Implement
 
-- A page with contact information.
-- A page with a Facebook update.
-- A blog, where the user can read about day-to-day happenings with the pets.
+- A pop-up message with the declaration of the winner.
+- An ability to choose number of times in a "Best of ? number of games".
 
 ## Technology
 
@@ -121,8 +120,7 @@ Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many year
 
 - No bugs unfixed. 
 
-- I had a issue with my cards staying in a row when I wanted them to go to 2 and then 1 across.
-  The problem was fixed with media queries changing their flex-basis and using wrap.
+- I had a issue with my cards stacking up on each other instread of lining up next to one another. I solved the issue by turning my cards into buttons.
 
 ## Deployment
 
@@ -137,16 +135,15 @@ Did a `git push` to push my work into GitHub.
   - From the source section drop-down menu, select the Main Branch
   - Once the main branch has been selected, the page will be automatically refreshed with a display to indicate the successful deployment. 
 
-The live link can be found here - https://satry22.github.io/My-Pets/index.html 
+The live link can be found here - https://satry22.github.io/Lets-Play/
 
 
 ## Credits 
 
-  - Google fonts Quicksand and Open Sans was used on the entire page.
-  - AwesomeFonts provided icons to Social Media Links and Birthdays.
+  - Google fonts Barlow Condensed was used on the entire page.
   - W3School has been used for instruction and ideas for the overall page.
-  - Basic structure inspiration from Love Running project.
-  - Tutorials and instruction to form from The Code Institute.
+  - Basic structure inspiration from other game-creators via Google search.
+  - Tutorials and instruction from The Code Institute.
 
 ### Content 
 
