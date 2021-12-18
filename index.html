@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Let's Play a Game!</title>
 </head>
+
 <body>
     <!--- Logo and menu --->
     <section>
@@ -24,8 +26,12 @@
         </nav>
     </section>
 
-    <!--- Player buttons --->
+    <!--- Scores and player buttons --->
     <section>
+        <div class="results">
+            <p>You: <span class="result-score" id="player-score"></span>0</p>
+            <p>Computer: <span class="result-score" id="computer-score"></span>0</p>
+        </div>
         <div class="selections">
             <button class="selection" data-selection="rock"><img src="assets/images/rock.png"
                     alt="a hand forming a rock"></button>
@@ -39,13 +45,7 @@
                     alt="a hand forming a spock-sign"></button>
         </div>
     </section>
-
-    <!--- Scores --->
-    <div class="results">
-        <div>You: <span class="result-score" id="player-score">0</span></div>
-        <div>Computer: <span class="result-score" id="computer-score">0</span></div>
-    </div>
-
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
