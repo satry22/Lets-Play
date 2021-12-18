@@ -1,3 +1,4 @@
+
 const playerScoreSpan = document.getElementById('player-score');
 const computerScoreSpan = document.getElementById('computer-score');
 const selectButtons = document.querySelectorAll('[data-selection]');

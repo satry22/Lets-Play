@@ -19,8 +19,8 @@ body {
 }
 
 .nav-bar {
-    background-color: darkgray;
-    padding: 20px;
+    background-color: rgb(230, 230, 92);
+    padding: 5px;
 }    
 
 ul {
@@ -34,9 +34,24 @@ li {
     
 }
 
-/* --------- Game area */
+/* --------- Game and score area */
 
-.selections {
+.results {
+    padding-top: 40px;
+    padding-bottom: 15px;
 }
 
 
+/* --------- Media queries */
+
+@media (max-width: 414px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        height: 70vh;
+    }
+}
