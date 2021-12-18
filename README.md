@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors, Lizard, Spock
 
-![All Devices](docs/Screenshot-alldevices.png)
+![All Devices](docs/alldevices.png)
 
 Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many years. This is an evolved version. The player plays the computers random choice.
 
@@ -32,21 +32,19 @@ Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many year
   - At the top of the pages, the responsive navigation bar includes links to the Game page, the Gallery and a Rules page. It is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate between pages across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Navbar](docs/screenshot-header.png)
-
 - __The Header__
 
   - The main image is an icon, a visual display of the games and its rules. 
   - This section introduces the user to what the game is.
 
-![Main image](docs/Screenshot-mainimage.png)
+![Main image](docs/header.png)
 
 - __The Game Section__
 
   - The Game section features five buttons. Each button represent a hand sign to be chosen by the user, and that choice triggers the computer to make a random choice of hand sign.  
   - The Game section includes a counter to able the user to see how many wins and losses they have.
 
-![Birthdays](docs/Screenshot-birthdays.png)
+![Game](docs/gamearea.png)
 
 - __The Rules__
 
@@ -69,7 +67,6 @@ Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many year
   - HTML code
   - CSS for styling
   - JavaScript for function
-  - Google search for images
   - DevTools for developing the code
 
 ## Testing
@@ -85,10 +82,7 @@ Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many year
 
   ![Performance](docs/Screenshot-performance.png)
 
-  - Tested for Iphone X, Ipad, Motorola G4, Galaxy S5, Galaxy Fold, Pixel 2XL.
-  ![Testing](docs/testing1.png)
-  ![Testing](docs/testing2.png)
-  ![Testing](docs/testing3.png)
+  - Tested for Iphone X, Ipad, Motola G4, Galaxy S5.
 
   - Supported screens: Google Chrome, Safari.
   
@@ -151,14 +145,6 @@ The live link can be found here - https://satry22.github.io/Lets-Play/
 
 ### Media
 
-- Images taken from [Pexels](https://pexels.com):
-  Main Photo by Japheth Mast
-  Black cat Photo by cottonbro
-  Red cat Photo by Valeria Boltneva
-  Cane Corso Photo by Vlad Chețan
-  Yorkshire terrier Photo by Daria Rem
-  Birthdays Photo by David Jakab
-  Photo by Andrea Piacquadio
+- Images taken from [Google](https://www.google.com):
 
-- All other photos are private. 
 
