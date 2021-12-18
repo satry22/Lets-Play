@@ -46,7 +46,6 @@ function makeSelection(selection) {
     console.log(computerWinner);
     if (playerWinner){
         playerScoreSpan.textContent = String(Number(playerScoreSpan.textContent) + 1);
-        
     } else if (computerWinner){
         computerScoreSpan.textContent = String(Number(computerScoreSpan.textContent) + 1);
     }
