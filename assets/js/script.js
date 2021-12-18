@@ -1,3 +1,5 @@
+/* add event listener to each selection button to allow gameplay */
+
 document.addEventListener('DOMContentLoaded', () => {
     for (let i = 0; i < selectButtons.length; i++) {
         selectButtons[i].addEventListener('click', function (e) {
@@ -6,9 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
             makeSelection(selection);
         });
     }
-    console.log('page loaded');
 });
-
+/** define global variables */
 const playerScoreSpan = document.getElementById('player-score');
 const computerScoreSpan = document.getElementById('computer-score');
 const selectButtons = document.querySelectorAll('[data-selection]');
@@ -40,17 +41,21 @@ const selections = [
     }
 ];
 
+/**
+* get a random selection from the available options
+* returns an object containing the selection made
+*/
 function randomSelection(options) {
     const selectionNumber = Math.floor(Math.random() * selections.length);
     const selection = selections[selectionNumber];
-    // console.log(selection)
     return selection;
 }
 
+/**
+* allow player to choose selection and run game round
+*/
 function makeSelection(selection) {
-    // console.log(selection)
     const computerSelection = randomSelection(selections);
-    console.log(computerSelection);
     let playerWinner = checkWinner(selection, computerSelection);
     let computerWinner = checkWinner(computerSelection, selection);
     console.log(playerWinner);
@@ -61,8 +66,9 @@ function makeSelection(selection) {
         computerScoreSpan.textContent = String(Number(computerScoreSpan.textContent) + 1);
     }
 }
-
+/**
+* check for win condition
+*/
 function checkWinner(selection, opponent){
     return selection.beats.includes(opponent.name);
 }
-

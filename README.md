@@ -48,9 +48,7 @@ Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many year
 
 - __The Rules__
 
-  - This section present rules of the game. The user will learn what actions are the winning actions, and what are thee losing action..
-
-![All Pets](docs/Screenshot-allpets.png)
+  - This section present rules of the game. The user will learn what actions are the winning actions, and what are thee losing action.
 
 
 ### Features Left to Implement
@@ -80,7 +78,7 @@ Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many year
 
   - Performance tested in Lighthouse:
 
-  ![Performance](docs/Screenshot-performance.png)
+  ![Performance](docs/lighthouse.png)
 
   - Tested for Iphone X, Ipad, Motola G4, Galaxy S5.
 
@@ -90,25 +88,19 @@ Rock, Paper, Scissors, Lizard, Rock is a game that has been played for many year
 ### User Stories Testing
 
 - As a user I want to know what the page is about.
-  - The Title and the cover text of the page shows who I am and what my page is about.
+  The title and the main image immediately tells the user what the page and game is.
 
-  ![title](docs/screenshot-title.png) 
-  ![CoverText](docs/screenshot-covertext.png)
+- As a user I want be able to easily understand what the game is and what the rules are.
+  The main image and page title tells the user what the game. On the Rules page the rules are lined up.
 
-- As a user I would like to know more about Saras Pets.
-  - The page is easily navigated with a sticky navigation bar, to view content of the page.
+
+- As a user I want to be able to see the scores kept during a game.
+  The scores are centered in the page, just above the game buttons.
+
 
 - As a user I want to navigate between pages.
-  - Navigation links are at the top right. The page the user is on is identified by the underlined border on each link as the click through the website. Navigation is made easy at any par6t of the page, with a navigation bar that follows.
+  Navigation links are right below the page title, centered in the page. 
 
-- As a user I want be able to view images of Saras pets.
-  - When the user navigates to the Galley page the images of my pets are clearly laid out and visible to the user.
-
-- As a user I want to be able to sign up for a newletter to be caught up on what is new.
-  - The Sing Up page is laid out with a from in the center of the page under the Nav Bar. The user can fill out name and email address. There are radio buttons where the user can choose what animals they prefer, or both. Once Submit button is clicked, the user will be directed to a Thank You- page for confirmation.
-
-- As a user I want the social media links to work.
-  - Social media links work and are opened in a new window.
 
 ### Unfixed Bugs
 
@@ -146,5 +138,3 @@ The live link can be found here - https://satry22.github.io/Lets-Play/
 ### Media
 
 - Images taken from [Google](https://www.google.com):
-
-
