@@ -1,8 +1,8 @@
 /** define global variables */
-const playerScoreSpan = document.getElementById('player-score');
-const computerScoreSpan = document.getElementById('computer-score');
-const selectButtons = document.querySelectorAll('[data-selection]');
-const selections = [
+const PLAYER_SCORE_SPAN = document.getElementById('player-score');
+const COMPUTER_SCORE_SPAN = document.getElementById('computer-score');
+const SELECT_BUTTONS = document.querySelectorAll('[data-selection]');
+const SELECTIONS = [
     {
         name: 'rock', 
         image: 'assets/images/rock.png',
@@ -35,8 +35,8 @@ const selections = [
 * returns an object containing the selection made
 */
 function randomSelection(options) {
-    const selectionNumber = Math.floor(Math.random() * selections.length);
-    const selection = selections[selectionNumber];
+    const selectionNumber = Math.floor(Math.random() * SELECTIONS.length);
+    const selection = SELECTIONS[selectionNumber];
     return selection;
 }
 
@@ -44,18 +44,16 @@ function randomSelection(options) {
 * allow player to choose selection and run game round
 */
 function makeSelection(selection) {
-    const computerSelection = randomSelection(selections);
+    const computerSelection = randomSelection(SELECTIONS);
     let playerWinner = checkWinner(selection, computerSelection);
     let computerWinner = checkWinner(computerSelection, selection);
-    console.log(playerWinner);
-    console.log(computerWinner);
     let notificationElement = document.getElementById('notification');
     if (playerWinner){
         notificationElement.textContent = "Congratulations! You won this round!";
-        playerScoreSpan.textContent = String(Number(playerScoreSpan.textContent) + 1);
+        PLAYER_SCORE_SPAN.textContent = String(Number(PLAYER_SCORE_SPAN.textContent) + 1);
     } else if (computerWinner){
         notificationElement.textContent = "Too bad! This time the computer beat you at the game!";
-        computerScoreSpan.textContent = String(Number(computerScoreSpan.textContent) + 1);
+        COMPUTER_SCORE_SPAN.textContent = String(Number(COMPUTER_SCORE_SPAN.textContent) + 1);
     } else {
         notificationElement.textContent = "It's a draw!";
     }
@@ -70,10 +68,10 @@ function checkWinner(selection, opponent){
 
 /* add event listener to each selection button to allow gameplay */
 document.addEventListener('DOMContentLoaded', () => {
-    for (let i = 0; i < selectButtons.length; i++) {
-        selectButtons[i].addEventListener('click', function (e) {
-            const selectionName = selectButtons[i].dataset.selection;
-            const selection = selections.find(selection => selection.name === selectionName);
+    for (let i = 0; i < SELECT_BUTTONS.length; i++) {
+        SELECT_BUTTONS[i].addEventListener('click', function (e) {
+            const selectionName = SELECT_BUTTONS[i].dataset.selection;
+            const selection = SELECTIONS.find(selection => selection.name === selectionName);
             makeSelection(selection);
         });
     }
@@ -81,7 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function playRound(playerChoice) {
     const selectionName = playerChoice;
-    const selection = selections.find(selection => selection.name === selectionName);
-    console.log(selectionName)
+    const selection = SELECTIONS.find(selection => selection.name === selectionName);
     makeSelection(selection);
 }
