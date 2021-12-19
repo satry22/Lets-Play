@@ -37,6 +37,10 @@ ul, li {
     padding: 0;
   }
   
+  .selections {
+    justify-content: space-around;
+    align-items: center;
+}
 
 /* --------- Media queries */
 
