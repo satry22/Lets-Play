@@ -4,13 +4,14 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
     color: #445361;
     text-align: center;
+    font-size: 20px;
 }
 
 /* --------- heading and nav-bar */
 
 .heading {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 40px;
 }
 
 .logo {
@@ -23,17 +24,6 @@ body {
     padding: 5px;
 }    
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-li {
-    display: inline;
-    
-}
-
 /* --------- Game and score area */
 
 .results {
@@ -41,6 +31,12 @@ li {
     padding-bottom: 15px;
 }
 
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
 
 /* --------- Media queries */
 
