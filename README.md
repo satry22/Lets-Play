@@ -112,13 +112,13 @@ The live link can be found here - https://satry22.github.io/Lets-Play/
 
 - As a user I want to navigate between pages.
   Navigation links are right below the page title, centered in the page. Klick on 'Game' or 'Rules' in the navigation bar to navigate the pages.
-  
+
   ![Navigation](docs/navbar.png)
 
 
 ### Unfixed Bugs
 
-- No bugs unfixed. 
+- One bug unfixed. Unable to align the player buttons properly. 
 
 - I had a issue with my cards stacking up on each other instread of lining up next to one another. I solved the issue by turning my cards into buttons.
 
