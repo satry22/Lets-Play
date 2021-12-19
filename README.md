@@ -102,13 +102,18 @@ The live link can be found here - https://satry22.github.io/Lets-Play/
 - As a user I want be able to easily understand what the game is and what the rules are.
   The main image and page title tells the user what the game. On the Rules page the rules are lined up. Klick 'Rules' in navigation bar and browse the rules.
 
+  ![Rules](docs/rules.png)
+
 
 - As a user I want to be able to see the scores kept during a game.
   The scores are centered in the page, just above the game buttons. Count is automatic and also displays the winner of the round.
 
+  ![Scores](docs/score.png)
 
 - As a user I want to navigate between pages.
   Navigation links are right below the page title, centered in the page. Klick on 'Game' or 'Rules' in the navigation bar to navigate the pages.
+  
+  ![Navigation](docs/navbar.png)
 
 
 ### Unfixed Bugs
